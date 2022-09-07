@@ -1,0 +1,14 @@
+<h1>App v4</h1>
+
+<table>
+  <tr>
+    <th>No</th>
+    <th>Judul</th>
+    <th>Isi</th>
+  </tr>
+  <tr *ngFor="let dataPost of dataPosts;">
+      <td>{{dataPost.id}}</td>
+      <td>{{dataPost.title}}</td>
+      <td>{{dataPost.body}}</td>
+  </tr>
+</table>
